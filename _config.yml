@@ -1,6 +1,6 @@
 name: Hongbin
 author: Hongbin Zhang
-baseurl: /
+## baseurl: /
 description: Personal Blog
 github: http://www.github.com/plok6325
 twitter: http://www.twitter.com/
