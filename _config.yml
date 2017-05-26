@@ -1,6 +1,6 @@
 name: Hongbin
 author: Hongbin Zhang
-baseurl: /herring-cove
+##baseurl: /herring-cove
 description: Personal Blog
 github: http://www.github.com/plok6325
 twitter: http://www.twitter.com/
