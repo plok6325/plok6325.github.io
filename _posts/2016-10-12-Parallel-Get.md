@@ -15,8 +15,8 @@ Parallel Get
 最低版本支持:2014b
 
 ----
-使用方法
-=========
+使用方法  
+=========  
 [下载](https://github.com/plok6325/Parallel-Get)并添加至Path 即可直接调用函数。
 
 ----------
