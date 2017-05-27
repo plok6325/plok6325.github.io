@@ -29,6 +29,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      
-gems:
-  - jekyll-seo-tag
