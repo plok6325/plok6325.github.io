@@ -76,12 +76,12 @@ p
   transition:all .5s ease 0
 }
 
-.navbar 
+.navbar
 {
   display: none;
 }
 
-.navbar a 
+.navbar a
 {
   text-decoration: none;
   border-bottom: 1px #b1b1b1 solid;
@@ -89,9 +89,9 @@ p
 
 #sidebar-wrapper
 {
-  margin-left:-250px;
-  left:250px;
-  width:250px;
+  margin-left:-300px;
+  left:300px;
+  width:300px;
   background:#f8f8f8;
   position:fixed;
   height:100%;
@@ -125,7 +125,7 @@ p
 
 .sidebar-nav li a
 {
-  color:#999;
+  color:#7d6666;
   display:block;
   text-decoration:none
 }
@@ -145,12 +145,12 @@ p
 
 .sidebar-nav > .sidebar-brand
 {
-  font-size:20px
+  font-size:30px
 }
 
 .sidebar-nav > .sidebar-brand > h3
 {
-  font-size:15px;
+  font-size:20px;
   font-weight:100;
   color:#5d5f67
 }
@@ -266,7 +266,7 @@ pre
 
 .showcase-text
 {
-  font-size:3em;
+  font-size:5em;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:bolder;
   color:#fff;
@@ -715,7 +715,7 @@ time
 .inset {
   padding: 15px;
 }
-.navbar 
+.navbar
 {
   display: inherit;
   background-color: #ededed;
@@ -726,7 +726,7 @@ time
 
 @media screen and (max-width: 500px) {
   #welcome-greeting h2 {
-   font-size: 15px; 
+   font-size: 15px;
    transition: all 0.2s ease 0s;
    font-weight: 200;
    line-height: 30px;
