@@ -1,6 +1,6 @@
 ---
-title: Markdown 语法总结
-date: 2017-05-29 01:00:00
+title: Markdown 高级语法总结
+date: 2017-05-28 01:00:00
 categories: Others
 ---
 
@@ -8,7 +8,7 @@ categories: Others
 
 - 让markdown 支持`MathJax`公式  
   在文章中加入  
-      \<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+        \<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 $$\frac{1}{2}=test$$
 
@@ -18,5 +18,3 @@ $$\frac{1}{2}=test$$
 
 
       \<div align='center'>Image Super-Resolution Using Deep Convolutional Networks</div>
-
-居中

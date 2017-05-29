@@ -1,6 +1,6 @@
 ---
 title: SRCNN 论文阅读
-date: 2017-05-27 20:00:00
+date: 2017-05-28 20:00:00
 categories: paper reading
 ---
 
@@ -42,3 +42,13 @@ CNN: 卷积神经网络 Convolutional Networks
 可见用SRCNN 的方法能取得比A* KK ANR 等更优的结果。  
 下图是他们提供的栗子  
 ![srcnn-example](/images/SRCNN-example.png)
+
+
+
+
+
+
+## 优点和缺点
+
+文中确实证明了  SRCNN在bicubic 的基础上有进步。 但是直接在bicubic 上做，有点投机取巧。
+文中提到彩色图像RBG 换成ycbcr 通道以后只在Y 通道做SRCNN 比直接在RGB 上做更好（PSNR 高了零点几）。 但我重复做了以后发现图像会饱和 ， YCBCR 的图有些像素很明显出现偏差，不知原作者是怎么处理的， 好在用RGB 直接做也能做出不错的结果。  
