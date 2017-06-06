@@ -1,5 +1,5 @@
 ---
-title: Perceptual loss for Real time Style Transfer and Super-Resolution 论文阅读
+title: Perceptual loss  论文阅读
 date: 2017-05-28 20:00:00
 categories: paper reading
 ---
