@@ -91,16 +91,16 @@ p
 {
   margin-left:-300px;
   left:300px;
-  width:300px;
+  width:250px;
   background:#f8f8f8;
   position:fixed;
   height:100%;
   overflow-y:auto;
   z-index:1000;
-  margin-top:-4px;
+  margin-top:-5px;
   border-top:solid #d90006;
   transition:all .4s ease 0;
-  border-width:4px
+  border-width:5px
 }
 
 .sidebar-nav

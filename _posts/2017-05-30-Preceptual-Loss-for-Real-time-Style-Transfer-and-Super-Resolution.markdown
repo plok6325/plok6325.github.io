@@ -7,10 +7,7 @@ categories: paper reading
 $$ E^2 $$
 这篇论文　[Perceptual Losses for Real-Time Style Transfer
 and Super-Resolution](https://arxiv.org/pdf/1603.08155.pdf) 由Stanford Uni 的Justion Johnson所写，  27 Mar 2016 发表在arXiv.
-
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+ 
 
 
 ## 名词解释

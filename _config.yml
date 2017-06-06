@@ -1,4 +1,4 @@
-name: Hongbin Z
+name: Hongbin
 author: Hongbin Zhang
 ## baseurl: /
 description: Personal Blog
@@ -18,7 +18,7 @@ markdown: kramdown
 
 kramdown:
   input: GFM
-  
+
 redcarpet:
   extensions: ["tables"]
 
