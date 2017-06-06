@@ -4,8 +4,6 @@ date: 2017-05-28 20:00:00
 categories: paper reading
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 
 这篇论文　[Perceptual Losses for Real-Time Style Transfer
 and Super-Resolution](https://arxiv.org/pdf/1603.08155.pdf) 由Stanford Uni 的Justion Johnson所写，  27 Mar 2016 发表在arXiv.

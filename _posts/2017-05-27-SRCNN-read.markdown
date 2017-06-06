@@ -7,9 +7,6 @@ categories: paper reading
 
 
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-
 ![srcnn](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN/img/figure1.png)
 
 这篇论文[Image Super-Resolution Using Deep Convolutional Networks](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)  
@@ -31,7 +28,7 @@ CNN: 卷积神经网络 Convolutional Networks
 4.1 神经网络的输入为第三步获得的LR，输出为SR， LR和SR的size一样。  
 4.2 HR 作为SR 的ground truth， CNN 通过backprop 不断让SR 更逼近 HR 。
 4.3 损失函数用 pixel-loss 具体公式为 \\(l(sr,hr) = \frac{1}{C\times H\times W}||sr-hr||_{2}^{2}\\)其中HWC 分别为图片的长，宽和color channel个数，一般为1 或3 。
-这个三层神经网络可以用下图表示出来。
+这个三层神经网络可以用下图表示出来。 
 
 ![scrnn-net](/images/SRCNN-net.png)  
 5. 不断重复上述步骤， 训练这个三层神经网络，使得这个网络能获取任意大小的图像， 然后生成相应的SR
