@@ -59,9 +59,9 @@ p
 
 .container
 {
-  width:80%;
+  width:95%;
   padding-right:0;
-  padding-top:30px
+  padding-top:20px
 }
 
 .container a
@@ -266,7 +266,7 @@ pre
 
 .showcase-text
 {
-  font-size:5em;
+  font-size:4em;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:bolder;
   color:#fff;
