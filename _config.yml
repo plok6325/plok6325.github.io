@@ -15,6 +15,10 @@ location:  London/Ningbo
 
 highlighter: pygments
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  
 redcarpet:
   extensions: ["tables"]
 
