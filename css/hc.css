@@ -379,8 +379,7 @@ pre
   font-weight:700;
   color:#d90006;
   padding-top:15px;
-  padding-left: 30%
-  
+  padding-left: 30%; 
 }
 
 .meta
@@ -388,6 +387,10 @@ pre
   text-shadow:1px 1px #fff;
   color:#b6b6b6
 }
+
+
+ 
+
 
 img
 {
