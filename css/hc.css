@@ -379,7 +379,7 @@ pre
   font-weight:700;
   color:#d90006;
   padding-top:15px;
-  padding-left: 300px
+  text-align: center
   
 }
 
@@ -412,8 +412,8 @@ img
 .post
 {
   padding-bottom:30px; 
-  max-width: 700px;
-  margin-left:  200px
+  margin-right: 20% ;
+  margin-left:  10%;
 }
 
 .user-social
