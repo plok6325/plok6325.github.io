@@ -79,7 +79,7 @@ p
 
 #wrapper
 {
-  padding-left:250px;
+  padding-left:17%;
   transition:all 1s ease 0
 }
 
@@ -96,9 +96,9 @@ p
 
 #sidebar-wrapper
 {
-  margin-left:-300px;
-  left:300px;
-  width:250px;
+  margin-left:-15%;
+  left:15%;
+  width:17%;
   background:#f8f8f8;
   position:fixed;
   height:100%;
@@ -379,7 +379,7 @@ pre
   font-weight:700;
   color:#d90006;
   padding-top:15px;
-  text-align: center
+  padding-left: 30%
   
 }
 
@@ -405,7 +405,7 @@ img
   margin-bottom:30px;
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  padding:10px 40px 0;
+  padding:1px;
 
 }
 
