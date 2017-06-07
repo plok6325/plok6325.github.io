@@ -79,7 +79,7 @@ p
 
 #wrapper
 {
-  padding-left:17%;
+  padding-left:250px;
   transition:all 1s ease 0
 }
 
@@ -96,9 +96,9 @@ p
 
 #sidebar-wrapper
 {
-  margin-left:-15%;
-  left:14%;
-  width:15%;
+  margin-left:-250px;
+  left:250px;
+  width:250px;
   background:#f8f8f8;
   position:fixed;
   height:100%;
