@@ -36,11 +36,19 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
   color:#29598c
 }
 
+caption
+{
+  text-align: center
+  style="text-align:center;"
+}
+
+
 p
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:200
+  font-weight:1
 }
+
 
 .posts
 {
@@ -117,7 +125,7 @@ p
   line-height:30px;
   text-indent:40px;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:200;
+  font-weight:1;
   color:#9c9c9c;
   text-shadow:1px 1px #fff
 }
@@ -216,7 +224,7 @@ blockquote
 
 ul,ol
 {
-  font-weight:lighter
+  font-weight:initial
 }
 
 pre
@@ -382,7 +390,13 @@ pre
 img
 {
   max-width:100%;
+   margin-left: auto; 
+    margin-right:auto; 
+    display:block;
 }
+
+
+
 
 #article
 {
