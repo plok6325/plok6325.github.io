@@ -72,8 +72,7 @@ $$  P(B|D)  = \frac{P(D|B) \times P(B)}{P(D)} = \frac{0.6*0.4}{0.62} = \frac{0.2
 $$  P(C|D)  = \frac{P(D|C) \times P(C)}{P(D)} = \frac{0.2*0.9}{0.62} = \frac{0.18}{0.62}$$   
 
 ![image](/images/bayesian-image2.png)  
-
-<img src = '/images/bayesian-image2.png'>
+ 
 <div style="text-align:center;" >左： 先验概率 ； 右：后验概率   </div>  
  
 
@@ -89,7 +88,7 @@ $$  P(C|D)  = \frac{P(D|C) \times P(C)}{P(D)} = \frac{0.2*0.9}{0.62} = \frac{0.1
 
 $$   P(A|D_1=1,D_2=1) = \frac{P(D_1=1,D_2=1|A)\times P(A)}{P(D)}= \frac{P(D_1=1|A) \times P(D_2=1|A)\times P(A)}{P(D_1=1,D_2=1)}$$  
 
-同理可写出 P(B|D1=1,D2=1) 和P(C|D1=1,D2=1) 的概率。
+同理可写出 \\(P(B|D1=1,D2=1)\\) 和\\(P(C|D1=1,D2=1)\\) 的概率。
 带入数字可以得到：
 
 $$  P(A|D_1=1,D_2=1) = \frac{P(D_1=1|A) \times P(D_2=1|A)\times P(A)}{P(D_1=1,D_2=1)} = \frac{0.4*0.5*0.5}{0.4*0.5*0.5+0.4*0.6*0.6+0.2*0.9*0.9}=0.2463$$ 

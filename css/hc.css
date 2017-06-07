@@ -3,7 +3,7 @@
 body
 {
   color:#2c3e50;
-  background-color:#f0f0f0;
+  background-color:#f8f8f8;
   width:100%;
   border-top:solid #d90006;
   border-width:4px
@@ -80,7 +80,7 @@ p
 #wrapper
 {
   padding-left:250px;
-  transition:all .5s ease 0
+  transition:all 1s ease 0
 }
 
 .navbar
@@ -378,7 +378,9 @@ pre
   font-size:35px;
   font-weight:700;
   color:#d90006;
-  padding-top:15px
+  padding-top:15px;
+  padding-left: 300px
+  
 }
 
 .meta
@@ -403,12 +405,15 @@ img
   margin-bottom:30px;
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  padding:10px 40px 0
+  padding:10px 40px 0;
+
 }
 
 .post
 {
-  padding-bottom:30px
+  padding-bottom:30px;
+  padding-left:300px;
+  padding-right:450px;
 }
 
 .user-social
