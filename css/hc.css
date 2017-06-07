@@ -411,9 +411,9 @@ img
 
 .post
 {
-  padding-bottom:30px;
-  padding-left:300px;
-  padding-right:450px;
+  padding-bottom:30px; 
+  max-width: 700px;
+  margin-left:  200px
 }
 
 .user-social
