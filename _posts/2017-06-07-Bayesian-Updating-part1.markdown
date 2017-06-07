@@ -73,7 +73,7 @@ $$  P(C|D)  = \frac{P(D|C) \times P(C)}{P(D)} = \frac{0.2*0.9}{0.62} = \frac{0.1
 
 ![image](/images/bayesian-image2.png)  
 
-
+<img src = '/images/bayesian-image2.png'>
 <div style="text-align:center;" >左： 先验概率 ； 右：后验概率   </div>  
  
 
