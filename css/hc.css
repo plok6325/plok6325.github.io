@@ -52,9 +52,9 @@ p
 
 .posts
 {
-  font-size:20px;
+  font-size:17px;
   list-style:none;
-  font-weight:lighter;
+  font-weight:initial;
   line-height:250%;
   padding-bottom:30px
 }
@@ -90,8 +90,9 @@ p
 
 .navbar a
 {
-  text-decoration: none;
-  border-bottom: 1px #b1b1b1 solid;
+  text-decoration: blink;
+  border-bottom: 0px #b1b1b1 solid;
+  color: #504747
 }
 
 #sidebar-wrapper
@@ -379,7 +380,7 @@ pre
   font-weight:700;
   color:#d90006;
   padding-top:15px;
-  padding-left: 30%; 
+  text-align: center;
 }
 
 .meta
@@ -471,8 +472,7 @@ time
   background-color:#fff;
   color:#4d4d4d;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  margin:10px 10%;
-  padding:10px 40px
+  padding:10px 10px
 }
 
 .recent-posts h1
@@ -707,7 +707,12 @@ time
 }
 
 @media (max-width:767px) {
-
+  
+.post{
+    padding-bottom:30px; 
+  margin-right: 3% ;
+  margin-left:  3%;
+}
 #wrapper {
   padding-left: 0;
   padding-top: 20px;
@@ -756,11 +761,11 @@ time
   .container {
     width: 100%;
     margin: 0 0 0 0;
-    padding: 15px 15px 0 15px;
+    padding: 1px 1px 0 1px;
   }
 
   #article {
-      padding: 0 10px 0 10px;
+      padding: 0 2px 0 2px;
   }
 
 
