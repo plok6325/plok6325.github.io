@@ -1,5 +1,5 @@
 ---
-title: 自动驾驶GTA-Part 2  - 操纵 GTA
+title: 自动驾驶GTA-Part 2  - 操纵 
 
 date: 2017-06-11 21:00:00
 categories: Deep-learning
