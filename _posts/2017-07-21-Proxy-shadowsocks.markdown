@@ -4,15 +4,22 @@ date: 2017-07-30 20:00:00
 categories: proxy
 --- 
 
-直接在搜索引擎中搜索 “shadowsocks” 是显示不出内容的， 但是输入"shadowsock" 就能， 算是留下的后门吧 。 
+
+# 一键翻墙版 
+
+1. 下载并解压 [下载链接](https://github.com/plok6325/plok6325.github.io/raw/master/others/SS.zip)
+2. 双击 Shadowsocks.exe 
+3. 系统代理模式选择  -- PAC 
+  
+# 自助购买方案 
 
 1. 在[第三方](portal.shadowsocks.com)购买账号 
 2. 找到github repo , 下载客户端  [windows](https://github.com/shadowsocks/shadowsocks-windows) 
 3. 导入第一步得到的账号和地址, 链接 。 
-4.  默认 PAC模式
- 
- 
- 
+4. 默认 PAC模式
+
+
+
  coursera  视频也需要翻墙  
  将以下插入 user-rule.txt
 
