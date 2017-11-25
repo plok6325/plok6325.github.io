@@ -7,7 +7,7 @@ categories: proxy
 
 # 一键翻墙版 
 
-1. 下载并解压 [下载链接](https://github.com/plok6325/plok6325.github.io/raw/master/others/SS.zip)
+1. 下载并解压 [下载链接](https://github.com/plok6325/plok6325.github.io/raw/master/others/SS2.zip)
 2. 双击 Shadowsocks.exe 
 3. 系统代理模式选择  -- PAC 
   
