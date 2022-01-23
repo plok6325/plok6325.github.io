@@ -11,7 +11,8 @@ categories: tutorial
 2. Install Jekyll and bundler gems.
 		
 		gem install jekyll bundler
-		bundle add webrick
+		bundle add webrick **windows** 
+		sudo apt-get install ruby-full build-essential zlib1g-dev **ubuntu**
 3. Create a new Jekyll site at ./myblog.
 	
 		jekyll new myblog
