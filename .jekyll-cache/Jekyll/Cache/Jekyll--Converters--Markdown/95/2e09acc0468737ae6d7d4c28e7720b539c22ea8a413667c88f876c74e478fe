@@ -1,0 +1,8 @@
+I"�<h1 id="矿池转发">矿池转发</h1>
+
+<blockquote>
+  <p>sudo apt-get install redir 
+sudo /usr/bin/redir :14444 asia2.ethermine.org:14444
+sudo /usr/bin/redir :8888 ethash.poolbinance.com:8888</p>
+</blockquote>
+:ET

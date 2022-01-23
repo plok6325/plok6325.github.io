@@ -1,0 +1,14 @@
+I"s<h1 id="矿池转发">矿池转发</h1>
+
+<blockquote>
+  <p>sudo apt-get install redir</p>
+
+  <p>sudo /usr/bin/redir :14444 asia2.ethermine.org:14444</p>
+
+  <p>sudo /usr/bin/redir :8888 ethash.poolbinance.com:8888</p>
+</blockquote>
+
+<blockquote>
+  <p>nbminer -a ethash -o ethproxy+tcp://43.155.118.125:14444 -u 0xfeAb8669ef2f5d07979A6954999c956Cec16FEeb</p>
+</blockquote>
+:ET

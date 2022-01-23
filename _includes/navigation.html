@@ -1,0 +1,39 @@
+<div class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <p class="navbar-brand"><a href="/">{{ site.name }}</a></p>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+      <li><a href="/list.html">我写过的文章</a></li>
+      <li><a href="/projects.html">我做过的项目</a></li>
+      <li><a href="/README.html">我的简历 </a></li>
+         <li><a href="/contact.html">我的联系方式 </a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand"><a href="/"><h1 class="brand">{{ site.name }}</h1></a><h3>{{ site.description }}</h3></li>
+    <hr />
+    <li><a href="/list.html">我写过的文章</a></li>
+    <li><a href="/projects.html">我做过的项目</a></li><li>
+        <li><a href="/README.html">我的简历 </a></li>
+         <li><a href="/contact.html">我的联系方式 </a></li>
+    <hr />
+    <div id="social-wrapper"> 
+      <li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li> 
+      <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>
+    </div>
+  </ul>
+</div>

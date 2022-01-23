@@ -1,0 +1,38 @@
+I"�<p>我们要尝试用Deep learning 的方法 驾驶GTA ～</p>
+
+<p><img src="/images/gta5-1.jpg" alt="gta1" /></p>
+
+<p>第一步当然是要<strong>将图像作为输入</strong></p>
+<ol>
+  <li>使用PIL 里的ImageGrab 抓取获取图像</li>
+  <li>引用time 模块 计时 （检测刷新度）</li>
+  <li>抓取的图像 用CV2 新建窗口监控 （抓取的是BGR，需要换成RGB）</li>
+  <li>
+    <p>按Q 键终止程序</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> import numpy as np
+ from PIL import ImageGrab
+ import cv2
+ import time
+
+ def screen_record(): 
+     last_time = time.time()
+     while(True):
+         # 800x600 windowed mode for GTA 5, at the top left position of your main screen.
+         # 40 px accounts for title bar. 
+         printscreen =  np.array(ImageGrab.grab(bbox=(0,40,800,640)))
+         print('loop took {} seconds'.format(time.time()-last_time))
+         last_time = time.time()
+         cv2.imshow('window',cv2.cvtColor(printscreen, cv2.COLOR_BGR2RGB))
+         if cv2.waitKey(25) &amp; 0xFF == ord('q'):
+             cv2.destroyAllWindows()
+             break
+
+ screen_record()
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="大概10fps">大概10FPS</h2>
+
+:ET

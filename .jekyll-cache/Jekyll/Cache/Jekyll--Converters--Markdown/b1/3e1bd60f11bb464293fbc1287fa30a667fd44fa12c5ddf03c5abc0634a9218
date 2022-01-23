@@ -1,0 +1,32 @@
+I"D<h1 id="the-right-way-to-use-jekyll">The right way to use jekyll</h1>
+<ol>
+  <li>Install a full Ruby development environment.</li>
+  <li>
+    <p>Install Jekyll and bundler gems.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> gem install jekyll bundler
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Create a new Jekyll site at ./myblog.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> jekyll new myblog
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Change into your new directory.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> cd myblog
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Build the site and make it available on a local server.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> jekyll serve
+</code></pre></div>    </div>
+  </li>
+  <li>Browse to http://localhost:4000</li>
+</ol>
+
+<h1 id="github">Github</h1>
+:ET

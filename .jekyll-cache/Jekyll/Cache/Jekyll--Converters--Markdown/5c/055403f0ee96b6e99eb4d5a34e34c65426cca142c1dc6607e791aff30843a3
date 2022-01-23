@@ -1,0 +1,105 @@
+I"$<ol>
+  <li>
+    <p>贝叶斯  从discrete prior 到continuous prior ？　还是只要 continuous prior ? <br />
+1.1 bayesian 和frequentist 的区别要不要说 ？ 这里要不要 也用frequentist 的方法做一遍 ？</p>
+  </li>
+  <li>
+    <p>SRCNN  – 普通的CNN 要不要提 ？ 要说多详细 ？  数据集要什么 BSD100 ？</p>
+  </li>
+  <li>
+    <p>测量相似度的PSNR  SSIM MSSIM</p>
+  </li>
+  <li>
+    <p>preceptral less —li feifei</p>
+  </li>
+  <li>
+    <p>GAN ?</p>
+  </li>
+  <li>
+    <p>VGG ?</p>
+  </li>
+  <li>
+    <p>ResNEt ?</p>
+  </li>
+</ol>
+
+<h1 id="abstract">Abstract</h1>
+<h1 id="１intro">１．Intro</h1>
+<p>这段里说ＶＴ　和　</p>
+<h1 id="2-related-work">2 Related work</h1>
+<h2 id="21-贝叶斯的发展">2.1 贝叶斯的发展</h2>
+<ul>
+  <li>贝叶斯公式怎么推导</li>
+  <li>discrete prior</li>
+  <li>continuous prior</li>
+  <li>前面的常数的意义</li>
+  <li>flat prior 和informative prior 怎么选
+    <h2 id="22-super-resolution-的发展">2.2 Super Resolution 的发展</h2>
+  </li>
+  <li>resampling 方法 bicubic bilinear</li>
+  <li>A+ sparse-coding- method （抄SRCNN）</li>
+</ul>
+
+<h1 id="3-method">3. method</h1>
+<p>总起段介绍VT 的方法和统计学原理</p>
+
+<h2 id="311-我统一了pt">3.1.1 我统一了PT</h2>
+
+<h2 id="312-我使用了beta-方程">3.1.2 我使用了Beta 方程</h2>
+<ul>
+  <li>conjugate prior 存在的意义， 为什么VT 问题 可以用beta 方程</li>
+  <li>beta factor 是什么，为什么选30</li>
+  <li>数据量对结果的影响</li>
+</ul>
+
+<h2 id="32">3.2</h2>
+<p>总起段介绍SR</p>
+<h2 id="321-我使用了srcnn">3.2.1 我使用了SRCNN</h2>
+<ul>
+  <li>CNN的 结构</li>
+  <li>每一层的参数是？</li>
+  <li>给图 keras 生成</li>
+  <li>给表 keras 生成</li>
+</ul>
+
+<h2 id="322-我使用了-rsrcnn">3.2.2 我使用了 RSRCNN</h2>
+<ul>
+  <li>CNN的 结构</li>
+  <li>每一层的参数是？</li>
+  <li>给图 keras 生成</li>
+  <li>给表 keras 生成</li>
+  <li>他的优点是快速</li>
+</ul>
+
+<h1 id="4-result">4. result</h1>
+<h2 id="41-beta-举例子">4.1 Beta 举例子</h2>
+<ul>
+  <li>三个例子
+    <ul>
+      <li>能区别</li>
+      <li>不能区别</li>
+      <li>一开始不能区别后来能区别了</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="42-sr">4.2 SR</h2>
+<ul>
+  <li>normalisation 的方法</li>
+  <li>给结果图 和 传统方法比较
+    <ul>
+      <li>OMNIGLOT 的表现</li>
+      <li>BSD100 SET5 SET 100 的表现</li>
+    </ul>
+  </li>
+  <li>给numerical comparision 和 传统方法比较
+    <ul>
+      <li>SSIM</li>
+      <li>PSNR</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="5-conclusion">5. Conclusion</h1>
+<p>我发明了一个VT 的方法， 在实际使用中， 发现 原图可能会太小， 所以发明了一种让原图放大但不失真的SR 方法， 并且衡量了他们的表现</p>
+:ET

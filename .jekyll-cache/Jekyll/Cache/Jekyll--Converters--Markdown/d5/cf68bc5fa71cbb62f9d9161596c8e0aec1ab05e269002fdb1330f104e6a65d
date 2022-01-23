@@ -1,0 +1,31 @@
+I"2<h1 id="一键翻墙版">一键翻墙版</h1>
+
+<ol>
+  <li>下载并解压 <a href="https://github.com/plok6325/plok6325.github.io/raw/master/others/SS2.zip">下载链接</a></li>
+  <li>双击 Shadowsocks.exe</li>
+  <li>系统代理模式选择  – PAC</li>
+</ol>
+
+<h1 id="自助购买方案">自助购买方案</h1>
+
+<ol>
+  <li>在<a href="portal.shadowsocks.com">第三方</a>购买账号</li>
+  <li>找到github repo , 下载客户端  <a href="https://github.com/shadowsocks/shadowsocks-windows">windows</a></li>
+  <li>导入第一步得到的账号和地址, 链接 。</li>
+  <li>默认 PAC模式</li>
+</ol>
+
+<p>coursera  视频也需要翻墙<br />
+ 将以下插入 user-rule.txt</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>||coursera.org
+||edx.org
+||coursera-university-assets.s3.amazonaws.com
+||coursera-instructor-photos.s3.amazonaws.com
+||coursera-course-photos.s3.amazonaws.com
+||spark-public.s3.amazonaws.com
+||s3.amazonaws.com
+||cloudfront.net
+||ssl.google-analytics.com
+</code></pre></div></div>
+:ET

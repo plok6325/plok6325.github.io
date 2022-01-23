@@ -1,0 +1,24 @@
+I"/<p>Linux 安装配置anaconda</p>
+
+<ol>
+  <li>
+    <p>下载安装Anaconda 文件 最新的连接地址可以从https://www.anaconda.com/distribution/#windows 获取</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>bash 运行</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash Anaconda3-2019.07-Linux-x86_64.sh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>source 一下</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source</span> ~/.bashrc
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+:ET

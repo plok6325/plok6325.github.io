@@ -1,0 +1,41 @@
+I"�<p>Windows 上目前只支持Python 3.5 。 所以要么anaconda 下载的就是3.5 的，要么就创建一个 Python = 3.5 的environment。</p>
+
+<ol>
+  <li>
+    <p>下载安装anaconda3，然后把anaconda3 加入到path 中 (确保conda 能用，可以通过anaconda navigator 进入)</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> python  
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>下载安装cuda 和 cudnn。 cudnn 需要复制粘贴到cuda 的dir下面 
+在cmd 里输入 nvcc -V 验证cuda 是否安装完成 （目前cuda 8.0 cudnn 5.1）</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> nvcc -V
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>创建一个 Python 3.5 的环境 然后激活</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> conda create -n tensorflow python=3.5 
+ activate tensorflow
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>安装如下TensorFlow -gpu</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.2.0-cp35-cp35m-win_amd64.whl
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>tensorflow 应该已经安装好了 验证TensorFlow</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> python 
+ &gt;&gt; import tensorflow as tf 
+ &gt;&gt; hello = tf.constant('Hello, TensorFlow!')
+ &gt;&gt; sess = tf.Session()
+ &gt;&gt; print(sess.run(hello))
+</code></pre></div>    </div>
+  </li>
+</ol>
+:ET

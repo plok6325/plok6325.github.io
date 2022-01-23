@@ -1,0 +1,40 @@
+name: Hongbin
+author: Hongbin Zhang
+## baseurl: /
+description: Personal Blog
+github: http://www.github.com/plok6325
+twitter: http://www.twitter.com/
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email: 332464178@qq.com
+location:  London/Ningbo
+
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: rouge
+markdown: kramdown
+port: 8000
+kramdown:
+  input: GFM
+
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+---
+layout: default
+comments: true
+# other options
+---
